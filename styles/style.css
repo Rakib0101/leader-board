@@ -110,7 +110,7 @@ hr{
     display: flex;
 }
 .blog .feature-image img{
-    width: 117px;
+    min-width: 117px;
     height: 117px;
     margin-right: 16px;
     border-radius: 10px;
@@ -233,8 +233,15 @@ hr{
         grid-template-columns: repeat(1, 1fr);
         justify-content: space-between;
     }
+    .blog{
+        flex-direction: column;
+    }
     .blogs-container{
         grid-template-columns: repeat(1, 1fr);
+        padding: 0 20px;
+    }
+    .blog .feature-image img{
+        width: 100%;
     }
     .course-container{
         flex-direction: column;
