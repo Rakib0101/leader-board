@@ -148,7 +148,7 @@ hr{
     margin-bottom: 20px;
 }
 .course-title{
-    width: 224px;
+    max-width: 224px;
 }
 .course-title h3{
     font-size: 20.0336px;
@@ -241,7 +241,7 @@ hr{
         align-items: center;
     }
     .course-container .course{
-        width: 50%;
+        width: 100%;
         margin-bottom: 20px;
     }
 }
